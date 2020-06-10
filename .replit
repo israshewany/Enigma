@@ -1,1 +1,10 @@
 alfabet = "abcdefghijklmnopqrstuvwxyz"
+
+def shift(tekst, amount):  
+  rotor1 = tekst[amount:26]
+  rotor2 = tekst[0:amount]
+  return rotor1 + rotor2
+    
+print(shift(alfabet,0))
+print(shift(alfabet,1))
+print(shift(alfabet,2))
