@@ -1,3 +1,7 @@
+print (
+  "Welke tekst wil je vertalen?"
+)
+
 alfabet = "abcdefghijklmnopqrstuvwxyz"
 UiteindelijkeTekst = []
 
@@ -13,3 +17,4 @@ print(shift(alfabet,2))
 rotor1 = Rotor(1, alfabet,  0)
 rotor2 = Rotor(2, alfabet,  0)
 rotor3 = Rotor(3, alfabet,  0)
+
