@@ -1,4 +1,5 @@
 alfabet = "abcdefghijklmnopqrstuvwxyz"
+UiteindelijkeTekst = []
 
 def shift(tekst, amount):  
   rotor1 = tekst[amount:26]
