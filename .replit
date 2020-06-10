@@ -8,3 +8,7 @@ def shift(tekst, amount):
 print(shift(alfabet,0))
 print(shift(alfabet,1))
 print(shift(alfabet,2))
+
+rotor1 = Rotor(1, alfabet,  0)
+rotor2 = Rotor(2, alfabet,  0)
+rotor3 = Rotor(3, alfabet,  0)
